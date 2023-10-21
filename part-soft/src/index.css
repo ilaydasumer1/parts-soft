@@ -1,0 +1,153 @@
+.app{
+    display: flex;
+}
+
+body{
+    margin-top: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+ .mainpage-img {
+width:100%;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
+  }
+.navbar{ 
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 30px;
+    gap:30px;
+    z-index: 1;
+    height: 100vh;
+    gap:50px;
+}
+.navbar-all-button{
+    font-size:normal;
+    padding-top:20px;
+    display: flex;
+    gap:30px;
+}
+
+.navbar-button{
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-bottom: 600px;
+    display: flex;
+    border:none;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0px;
+    background-color: transparent; 
+    color: white; 
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.navbar-button:hover{
+     color: rgb(18, 195, 227);
+}
+.navbar-ikon {
+    padding-top:10px;
+ width: 14%;
+}
+
+.navbar-menu-component{
+    width: 100%;
+    border:none;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    background-color: transparent; 
+    color: white; 
+}
+.menu-one {
+    width: 100%;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.menu-one:hover{
+    color: rgb(18, 195, 227);
+}
+
+.menu-item {
+    width: 70%;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    background-color: transparent;
+    color: #bebebe;
+    font-size:12px;
+
+}
+
+.menu-items {
+    font-size:small;
+    padding:20px;
+    color:#e5e4e2;
+    background-color:#282828;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-item.active {
+    background-color: 	#282828; 
+    color: white; 
+}
+.menu-item.active:hover {
+    background-color: 	#282828; 
+    border: none; 
+    color: white; 
+}
+.navbar-phone-mail{
+    display:flex;
+    padding-left:300px;
+
+}
+.navbar-svg {
+   width:60px;
+   height:60px;
+  }
+  
+.navbar-phone{
+    color:white; 
+    padding-top:25px;
+}
+.navbar-phone-span {
+    padding-top:18px;
+}
+.writen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent; /* Arka planın transparan olduğundan emin olun */
+  }
+  
+  .writen h1 {
+    background: rgba(255, 255, 255, 0.7); /* Metin arka planının transparan beyaz olduğunu ayarlayın */
+    padding: 10px;
+    border-radius: 5px; /* Metin kutusunun köşelerini yuvarlatın */
+  }
+  
